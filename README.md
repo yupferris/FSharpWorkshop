@@ -43,9 +43,9 @@ Then, we'll do a quick test to make sure everything's good to go. The simplest w
     Chart.Line([for x in 0 .. 10 -> x, x * x]).ShowChart()
     ```
     
-   Select all of the text, and use Alt+Enter to execute the code in the F# Interactive prompt. (Note that this key shortcut
+   Select all of the text, and use Alt+Enter to execute the code in the F# Interactive prompt. Note that this key shortcut
    may be taken already if you're using tools like Resharper, but the option should be available in the right-click context
-   menu when the text is selected as well).
+   menu when the text is selected as well.
  
  - __Windows, Mac + Linux from the command prompt:__ Locate the FSharp.Charting[.Gtk].dll file, either in the installed NuGet
    package directory (most likely under the lib/net40 directory), or from the binary or source release build. Fire up __fsi__
