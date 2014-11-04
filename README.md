@@ -49,11 +49,12 @@ Then, we'll do a quick test to make sure everything's good to go. The simplest w
  
  - __Windows, Mac + Linux from the command prompt:__ Locate the FSharp.Charting[.Gtk].dll file, either in the installed NuGet
    package directory (most likely under the lib/net40 directory), or from the binary or source release build. Fire up __fsi__
-   and ender the following lines:
+   and ender the following lines (_note that all of the "[.Gtk]" text instances are only necessary if you're using
+   FSharp.Charting.Gtk.dll_):
 
     ```
-    #r "FSharp.Charting.dll"
-    open FSharp.Charting
+    #r "FSharp.Charting[.Gtk].dll"
+    open FSharp.Charting[.Gtk]
     
     Chart.Line([for x in 0 .. 10 -> x, x * x]).ShowChart()
     ```
