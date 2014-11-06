@@ -22,6 +22,14 @@ To get ourselves up and running, we'll need to install:
    [here](https://www.nuget.org/). Also, if you plan on using it from the command line, there's a great guide on how to do
    that [here](http://blog.davidebbo.com/2011/01/installing-nuget-packages-directly-from.html).
 
+ - __F# Data__ - A library for manipulating data in F#, much of which is implemented with Type Providers. We'll use this for
+   interpreting JSON in our real-world data example. You can get it [here](http://fsharp.github.io/FSharp.Data/) under the
+   _"How to get F# Data"_ section, or follow one of these links directly:
+   - [FSharp.Data for Windows, Mac and Linux](https://nuget.org/packages/FSharp.Data) on NuGet
+   - [FSharp.Data for Windows, Mac and Linux](https://github.com/fsharp/FSharp.Data/zipball/release) binary release (.zip
+     file)
+   - [FSharp.Data source](https://github.com/fsharp/FSharp.Data/zipball/master) (.zip file)
+
  - __F# Charting__ - F# Charting is a lovely little cross-platform charting library. You can get it
    [here](http://fsharp.github.io/FSharp.Charting/) under the section _"How to get F# Charting"_, or follow one of these
    links directly:
@@ -66,5 +74,5 @@ And that's it :) .
 
 ## Workshop code and slides
 
-The workshop code for following along during the workshop will be available in the next day or two. The slides will be
-made available after the workshop.
+The problem solving code scripts are available on this repo already. Please wait to try solving them until the presentation
+:) . The slides/solutions will be made available after the workshop.
